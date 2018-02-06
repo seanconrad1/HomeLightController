@@ -1,1 +1,3 @@
-# HomeLightController
+# HomeLightController - 2014
+
+Light controller that uses an Apache server, PHP, python, and an arduino. The website hosts a few buttons that can be clicked on. The buttons update a text file on the computer with a 1 or a 0. An python script is actively reading the file and passes the number to the Arduino using pySerial. The Arduino then takes the number and either turns the light on(1) or turns the light off(0). I also used a voice command program that would depending on what you would say, would open an executable. The two batch scripts with different names that when either were opened, would update the text file with a 1 or a 0. That enabled voice activation for controlling the lights. 
